@@ -1,0 +1,325 @@
+@media (max-width:970px) {
+
+    #navbar nav ul {
+        margin-left: 100px;
+    }
+
+    .logos>img {
+        height: 140px;
+        margin-top: -28px;
+    }
+
+    #second-container {
+        flex-wrap: wrap;
+
+    }
+
+    #about-us {
+        width: auto;
+    }
+
+    #about-us p {
+        width: auto;
+    }
+
+    #about-us h1 {
+        width: 30%;
+
+
+    }
+
+
+    #third-container {
+        flex-wrap: wrap;
+
+    }
+
+    .third-con-text {
+        margin: 0px auto;
+    }
+
+    .third-con-text p {
+        width: auto;
+
+    }
+
+    .left-img {
+        display: none;
+    }
+
+    .right-img {
+        display: none;
+    }
+
+
+
+    #design {
+        height: 270px;
+        position: absolute;
+
+
+    }
+
+    #logo {
+        height: 170px;
+        filter: invert(100%);
+
+    }
+
+    .foter-img {
+        overflow: hidden;
+        width: 370px;
+
+    }
+
+
+    #fourth-container>p {
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+    #fourth-container img {
+        position: absolute;
+        height: 50px;
+    }
+
+    #fourth-container #colon1 {
+        left: 6%;
+        top: 10%;
+
+    }
+
+    #fourth-container #colon2 {
+        right: 6%;
+        bottom: 10%;
+        transform: rotate(180deg);
+
+    }
+
+}
+
+@media(max-width:831px) {
+    .logos>img {
+        height: 100px;
+        margin-top: -28px;
+    }
+
+
+}
+
+@media(max-width:824px) {
+    #navbar {
+        flex: wrap;
+
+    }
+
+    .icons {
+        z-index: 99;
+        margin-right: 3px;
+        display: block;
+
+
+    }
+
+    .icons #close {
+        display: none;
+    }
+
+
+    
+    #navbar ul {
+        min-height: 100vh;
+        width: 100%;
+        background-color:black;
+        position: absolute;
+        top: -650%;
+        transition: all ease-in 0.5s;
+        z-index: 95;
+    margin-right: 0px;
+    line-height: 20px;
+align-items: center;
+justify-content: center;
+
+    }
+
+    #in-ul{
+        
+        width: 300px;
+        margin: 20px auto;
+        flex-wrap: wrap;
+    line-height: 100px;
+    text-align: center;
+    }
+    #navbar ul li a {
+        font-size: 1.5rem;
+text-align: center;
+    }
+#navbar ul li {
+    padding: 0px -28px;
+}
+}
+
+@media(max-width:740px) {
+    #main-container h1 {
+        width: auto;
+    }
+
+    #card-container {
+        height: 60%;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        height: 300px;
+        width: 300px;
+        border-radius: 35px;
+
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .logos>img {
+        height: 70px;
+        margin-top: -28px;
+    }
+
+
+
+
+    #main-container h1 {
+        font-size: 3rem;
+
+    }
+
+    #main-container h4 {
+        font-size: 1.4rem;
+        width: auto;
+    }
+
+
+    .logos {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .logos>img {
+        height: 120px;
+        margin-top: 65px;
+    }
+
+
+    #scroller h4 {
+        font-size: 60px;
+    }
+
+    #about-us h1 {
+        width: 70%;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #about-us p {
+        font-size: 15px;
+    }
+
+    .third-con-text p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .left-img {
+        display: block;
+        transform: rotate(360deg);
+        margin: auto;
+        width: 600px;
+    }
+
+    .right-img {
+        width: 600px;
+        margin: auto;
+        display: block;
+        transform: rotate(-180deg);
+
+    }
+
+
+
+
+    #design {
+        height: 270px;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        z-index: 2;
+
+    }
+
+    #logo {
+        height: 170px;
+        filter: invert(100%);
+
+    }
+
+    #fourth-container>p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    #fourth-container img {
+        position: absolute;
+        height: 35px;
+    }
+
+    #fourth-container #colon1 {
+        left: 3%;
+        top: 5%;
+
+    }
+
+    #fourth-container #colon2 {
+        right: 3%;
+        bottom: 5%;
+        transform: rotate(180deg);
+
+    }
+
+
+    #fifth-container {
+        margin-top: 380px;
+        margin-bottom: 40px;
+        height: 40%;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        height: 170px;
+        width: 290px;
+    }
+
+    #fifth-container h1 {
+        top: -15%;
+        font-size: 35px;
+    }
+
+
+
+    .footer-h1 {
+        font-size: 0.99rem;
+        width: 200px;
+    }
+
+    .footer-h2 {
+        width: 200px;
+        font-size: 0.6rem;
+    }
+
+    .footer-h3 {
+        font-size: 0.6rem;
+    }
+
+}
