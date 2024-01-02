@@ -160,7 +160,7 @@ text-align: center;
 }
 
 @media(max-width:740px) {
-    #main-container h1 {
+   #main-container h1 {
         width: auto;
     }
 
@@ -175,6 +175,15 @@ text-align: center;
         border-radius: 35px;
 
 
+    }
+
+
+    #fourth-container>p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    #fifth-container h1{
+font-size: 40px;
     }
 
 }
