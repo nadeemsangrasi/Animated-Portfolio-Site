@@ -53,19 +53,19 @@ elem.addEventListener("mouseleave",function(){
 })
 });
 
-gsap.to("#navbar",{
-    backgroundColor :"black",
-    duration:0.1,
-    height:"10px",
-    scrollTrigger:{
-        trigger:"#navbar",
-        scroller:"body",
-        start:"top -10",
-        end:"top -11",
-        scrub:1
-    }
+// gsap.to("#navbar",{
+  //  backgroundColor :"black",
+ //   duration:0.1,
+   // height:"10px",
+  //  scrollTrigger:{
+    //    trigger:"#navbar",
+  //      scroller:"body",
+    //    start:"top -10",
+    //    end:"top -11",
+  //      scrub:1
+    //}
 
-})
+//})
 
 gsap.to(".bg-overlay",{
     backgroundColor:"black",
