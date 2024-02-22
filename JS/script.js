@@ -56,7 +56,7 @@ elem.addEventListener("mouseleave",function(){
 gsap.to("#navbar",{
     backgroundColor :"black",
     duration:0.1,
-    height:"70px",
+    height:"10px",
     scrollTrigger:{
         trigger:"#navbar",
         scroller:"body",
